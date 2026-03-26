@@ -1,9 +1,5 @@
 # Common
-.env
-.env.local
-.env.production
 .idea/
-.vscode/
 
 # Backend (Laravel)
 backend/vendor/
@@ -31,3 +27,5 @@ frontend/coverage/
 # OS
 .DS_Store
 Thumbs.db
+config.bat
+node_modules

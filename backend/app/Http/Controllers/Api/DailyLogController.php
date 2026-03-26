@@ -242,7 +242,7 @@ class DailyLogController extends Controller
     }
 
     /**
-     * Extract duplicate authorization and status checks.
+     * Extract authorization and status checks.
      */
     private function checkAccessOrFail(Request $request, DailyLog $dailyLog, bool $checkCompleted = true): ?JsonResponse
     {
